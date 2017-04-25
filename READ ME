@@ -1,0 +1,16 @@
+This is a sample ASP.Net MVC demo project.
+Developed using visual studio 2013 and SQL server 2013.
+
+Execute the following DB Script to create the database
+-----------------------------------
+CREATE DATABASE DEMO
+GO
+USE DEMO
+GO
+CREATE TABLE [Counter]
+(
+	[Count] [int] NULL
+)
+ON [PRIMARY]
+GO
+-------------------------------------
