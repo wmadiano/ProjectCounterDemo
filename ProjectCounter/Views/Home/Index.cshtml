@@ -1,0 +1,23 @@
+﻿
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@using (Html.BeginForm())
+{
+    <h2>Project Counter</h2>
+    
+    <table>
+        <tr>
+            <td>Curent Count: </td>
+            <td>@ViewBag.count</td>
+            <td>@((ViewBag.Count == 10) ? "You have reaced the max" : "")</td>
+        </tr>
+    </Table>
+    <input name="increment" type="submit" id="increment" value="Increment by 1" />
+
+}
+
+
+
